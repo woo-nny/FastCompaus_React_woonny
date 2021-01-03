@@ -29,3 +29,5 @@ HTML - 블록 레벨(Block level) 요소와 인라인(Inline) 요소
     - style 태그
 - 스타일 외부에서 가져와서 연결
     - link 태그
+
+4. Body 태그(문서의 구조)
