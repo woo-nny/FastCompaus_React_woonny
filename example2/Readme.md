@@ -17,3 +17,17 @@ HTML - 블록 레벨(Block level) 요소와 인라인(Inline) 요소
 - 수평으로 쌓임
 - margin,padding 위, 아래는 사용 불가
 - TEXT
+
+3. Head 태그(문서의 정보)
+- HTML 문서의 제목
+    - title 태그
+- 기타 정보
+    - meta 태그
+        - EUC-KR : 완성형
+        - UTF-8 : 조합형
+- 스타일 직접 입력
+    - style 태그
+- 스타일 외부에서 가져와서 연결
+    - link 태그
+
+4. Body 태그(문서의 구조)
