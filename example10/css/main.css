@@ -1,0 +1,32 @@
+ul li::before{
+    content: "숫자";
+    font-weight: bold;
+    color: red;
+    margin-right: 20px;
+}
+ul li::after{
+    content: ".0";
+}
+
+[class^="btn-"]{
+    color: red;
+}
+
+div{
+    color: red !important; 
+}
+#color_yellow{
+    color: yellowgreen;
+}
+.color_green{
+    color: green;
+}
+div{
+    color: blue;
+}
+*{
+    color: darkblue;
+}
+body{
+    color: violet;
+}
