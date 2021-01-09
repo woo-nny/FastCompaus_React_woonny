@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="me" data-my-name="woonny" data-my-age="20">Wonny</div>
+    <form id="hidden-form" action="/form-action" hidden>
+        <!-- 숨겨진 양식들.. -->
+        <input type="text" name="id" value="woonny">
+    </form>
+    <button form="hidden-form" type="submit">전송</button>
+    <script>
+        const me = document.getElementById('me');
+        console(me.dataset.myName);
+        console(me.dataset.myAge);
+    </script>
+</body>
+</html>
